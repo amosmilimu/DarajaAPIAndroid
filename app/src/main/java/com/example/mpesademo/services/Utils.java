@@ -1,4 +1,4 @@
-package com.example.mpesademo.Services;
+package com.example.mpesademo.services;
 
 import android.util.Base64;
 
@@ -6,9 +6,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-public class Utils {public static String getTimestamp() {
+public class Utils {
+
+
+    public static String getTimestamp() {
     return new SimpleDateFormat("yyyyMMddHHmmss", Locale.getDefault()).format(new Date());
-}
+    }
 
     public static String sanitizePhoneNumber(String phone) {
 

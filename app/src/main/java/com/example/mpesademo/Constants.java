@@ -1,13 +1,17 @@
 package com.example.mpesademo;
 
 public class Constants {
-    public static final int CONNECT_TIMEOUT = 60 * 1000;
+    public static final long CONNECT_TIMEOUT = 60 * 1000;
 
-    public static final int READ_TIMEOUT = 60 * 1000;
+    public static final long READ_TIMEOUT = 60 * 1000;
 
-    public static final int WRITE_TIMEOUT = 60 * 1000;
+    public static final long WRITE_TIMEOUT = 60 * 1000;
 
     public static final String BASE_URL = "https://sandbox.safaricom.co.ke/";
+
+
+    public static final String DARAJA_CONSUMER_KEY="GIaVZTcELrkR4g3R9YjEd2zMvziGXxER";
+    public static final String DARAJA_CONSUMER_SECRET="v6EwKjiMVod2XADc";
 
     public static final String BUSINESS_SHORT_CODE = "174379";
     public static final String PASSKEY = "MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjEwMTAxMjIxNzEy"; // GENERATED PASSWORD

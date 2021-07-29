@@ -4,7 +4,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
-import butterknife.BindView;
 import butterknife.ButterKnife;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -13,12 +12,9 @@ import timber.log.Timber;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
 
-import com.example.mpesademo.Services.DarajaApiClient;
-import com.example.mpesademo.Services.Utils;
+import com.example.mpesademo.services.DarajaApiClient;
+import com.example.mpesademo.services.Utils;
 import com.example.mpesademo.databinding.ActivityMainBinding;
 import com.example.mpesademo.model.AccessToken;
 import com.example.mpesademo.model.STKPush;
@@ -101,7 +97,7 @@ public class MainActivity extends AppCompatActivity{
         String timestamp = Utils.getTimestamp();
         STKPush stkPush = new STKPush(
                 BUSINESS_SHORT_CODE,
-                PASSKEY,//Utils.getPassword(BUSINESS_SHORT_CODE, PASSKEY, timestamp)
+                PASSKEY, //Utils.getPassword(BUSINESS_SHORT_CODE, PASSKEY, timestamp),//
                 "20210101221712", //timestamp
                 TRANSACTION_TYPE,
                 String.valueOf(amount), //
