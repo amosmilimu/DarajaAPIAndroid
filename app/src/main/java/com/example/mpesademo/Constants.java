@@ -10,8 +10,8 @@ public class Constants {
     public static final String BASE_URL = "https://sandbox.safaricom.co.ke/";
 
 
-    public static final String DARAJA_CONSUMER_KEY="GIaVZTcELrkR4g3R9YjEd2zMvziGXxER";
-    public static final String DARAJA_CONSUMER_SECRET="v6EwKjiMVod2XADc";
+    public static final String DARAJA_CONSUMER_KEY="KEY";
+    public static final String DARAJA_CONSUMER_SECRET="SECRET";
 
     public static final String BUSINESS_SHORT_CODE = "174379";
     public static final String PASSKEY = "MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjEwMTAxMjIxNzEy"; // GENERATED PASSWORD
